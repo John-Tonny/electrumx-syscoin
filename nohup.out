@@ -1,0 +1,1344 @@
+INFO:electrumx:ElectrumX server starting
+WARNING:Env:lowered maximum sessions from 1,000 to 674 because your open file limit is 1,024
+INFO:electrumx:logging level: INFO
+INFO:Controller:Python version: 3.7.6 (default, Dec 19 2019, 23:50:13)  [GCC 7.4.0]
+INFO:Controller:software version: ElectrumX 1.14.0
+INFO:Controller:aiorpcX version: 0.18.4
+INFO:Controller:supported protocol versions: 1.4-1.4.2
+INFO:Controller:event loop policy: None
+INFO:Controller:reorg limit is 2,000 blocks
+INFO:SyscoinDaemon:daemon #1 at localhost:8370/ (current)
+INFO:DB:switching current directory to /root/db
+INFO:DB:using leveldb for DB backend
+INFO:DB:opened UTXO DB (for sync: True)
+INFO:DB:DB version: 7
+INFO:DB:coin: Syscoin
+INFO:DB:network: mainnet
+INFO:DB:height: 418,738
+INFO:DB:tip: 733ce656d9c01b9fb1bdedca48cb721b7e2f3d791867bc0b13af748ecbb87a2b
+INFO:DB:tx count: 494,672
+INFO:DB:flushing DB cache at 1,200 MB
+INFO:History:history DB version: 0
+INFO:History:flush count: 1,021
+INFO:DB:deleted 842 stale undo entries
+INFO:BlockProcessor:caught up to height 418738
+INFO:Prefetcher:caught up to daemon height 418,738
+INFO:DB:closing DBs to re-open for serving
+INFO:DB:opened UTXO DB (for sync: False)
+INFO:DB:DB version: 7
+INFO:DB:coin: Syscoin
+INFO:DB:network: mainnet
+INFO:DB:height: 418,738
+INFO:DB:tip: 733ce656d9c01b9fb1bdedca48cb721b7e2f3d791867bc0b13af748ecbb87a2b
+INFO:DB:tx count: 494,672
+INFO:History:history DB version: 0
+INFO:History:flush count: 1,021
+INFO:SessionManager:RPC server listening on localhost:8000
+INFO:DB:populating header merkle cache...
+INFO:MemPool:beginning processing of daemon mempool.  This can take some time...
+INFO:SessionManager:max session count: 674
+INFO:SessionManager:session timeout: 600 seconds
+INFO:SessionManager:session cost hard limit 10,000
+INFO:SessionManager:session cost soft limit 1,000
+INFO:SessionManager:bandwidth unit cost 5,000
+INFO:SessionManager:request sleep 2,500ms
+INFO:SessionManager:request timeout 30s
+INFO:SessionManager:initial concurrent 10
+INFO:SessionManager:max response size 25,000,000 bytes
+INFO:SessionManager:advertising service tcp://1.2.3.4:50001
+INFO:SessionManager:advertising service ssl://1.2.3.4:50002
+INFO:SessionManager:advertising service wss://1.2.3.4:50004
+INFO:MemPool:compact fee histogram: []
+INFO:MemPool:synced in 0.03s
+INFO:MemPool:2 txs 0.00 MB touching 4 addresses
+INFO:SessionManager:TCP server listening on all_interfaces:50001
+INFO:SessionManager:SSL server listening on all_interfaces:50002
+INFO:SessionManager:WSS server listening on all_interfaces:50004
+INFO:PeerManager:peer discovery: ON
+INFO:PeerManager:announce ourself: True
+INFO:PeerManager:my clearnet self: 1.2.3.4
+INFO:PeerManager:force use of proxy: False
+INFO:PeerManager:beginning peer discovery...
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:accepted new peer 1.2.3.4 from env
+INFO:PeerManager:no proxy detected, will try later
+INFO:DB:header merkle cache populated in 28.8s
+INFO:PeerManager:[1.2.3.4:50002 SSL] [Errno 111] Connect call failed ('1.2.3.4', 50002)
+INFO:SyscoinElectrumX:[0] SSL 192.168.246.186:55918, 0 total
+INFO:Prefetcher:new block height 418,739 hash eb306cb282848a364eee3cc9d86527a42e522f095b4d8f2b8c1867f29eb9e0bf
+INFO:SyscoinElectrumX:[1] SSL 127.0.0.1:54044, 1 total
+INFO:DB:flush #1,022 took 0.0s.  Height 418,739 txs: 494,675 (+3)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:LocalRPC:[2] RPC 127.0.0.1:37560, 2 total
+INFO:LocalRPC:[3] RPC 127.0.0.1:37592, 2 total
+INFO:PeerManager:[1.2.3.4:50001 TCP] [Errno 111] Connect call failed ('1.2.3.4', 50001)
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,740 hash 67620ad78b759fa1cc7d87d54d4cc355e979216e68000504bafcc466b116376b
+INFO:DB:flush #1,023 took 0.0s.  Height 418,740 txs: 494,676 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,741 hash dcec68b6042be7504f2d70c489a78bb5909921c25c5a6a288240d7944801430c
+INFO:DB:flush #1,024 took 0.0s.  Height 418,741 txs: 494,677 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:2 txs 0.00 MB touching 6 addresses
+INFO:MemPool:3 txs 0.00 MB touching 7 addresses
+INFO:SyscoinElectrumX:[0] disconnected whilst throttled.  Sent 49,461,007 bytes in 74 messages
+INFO:Prefetcher:new block height 418,742 hash 3f9ae66081bbc9926945e5ffad554d50c48c259cc8c236865c4dc2f3098cb8a4
+INFO:DB:flush #1,025 took 0.0s.  Height 418,742 txs: 494,680 (+3)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:3 txs 0.00 MB touching 4 addresses
+INFO:SyscoinElectrumX:[4] SSL 192.168.246.186:57084, 1 total
+INFO:Prefetcher:new block height 418,743 hash 4be5a9563e85e89d41c15a9fb161e2e6a185f168ac9d1e20c2daa87b224b4bea
+INFO:DB:flush #1,026 took 0.0s.  Height 418,743 txs: 494,683 (+3)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:4 txs 0.00 MB touching 5 addresses
+INFO:Prefetcher:new block height 418,744 hash b10e6a43156991dd69df6d38e933c0870caf492f2b880d369a250f218e6d4587
+INFO:DB:flush #1,027 took 0.0s.  Height 418,744 txs: 494,687 (+4)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:2 txs 0.00 MB touching 4 addresses
+INFO:MemPool:4 txs 0.00 MB touching 4 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:Prefetcher:new block height 418,745 hash 363a819e0e31737c4fe85fe9c2955da84df554bfb568283415521e17bc083092
+INFO:DB:flush #1,028 took 0.0s.  Height 418,745 txs: 494,691 (+4)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:3 txs 0.00 MB touching 5 addresses
+INFO:SyscoinElectrumX:[1] disconnected whilst throttled.  Sent 48,800,979 bytes in 79 messages
+INFO:SyscoinElectrumX:[4] changing task concurrency from 10 to 1
+INFO:SyscoinElectrumX:[5] SSL 127.0.0.1:56132, 1 total
+INFO:SyscoinElectrumX:[4] disconnected whilst throttled.  Sent 2,924,011 bytes in 11 messages
+INFO:SyscoinElectrumX:[5] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[5] disconnected whilst throttled
+INFO:MemPool:4 txs 0.00 MB touching 8 addresses
+INFO:Prefetcher:new block height 418,746 hash 73015065418770af7b5bfb783383075425366772d2724109605816912b90c5d9
+INFO:DB:flush #1,029 took 0.0s.  Height 418,746 txs: 494,696 (+5)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:SyscoinElectrumX:[6] SSL 192.168.246.186:58376, 0 total
+INFO:SyscoinElectrumX:[7] SSL 127.0.0.1:56502, 1 total
+INFO:SyscoinElectrumX:[6] changing task concurrency from 10 to 1
+INFO:PeerManager:[1.2.3.4:50002 SSL] [Errno 111] Connect call failed ('1.2.3.4', 50002)
+INFO:SyscoinElectrumX:[6] disconnected whilst throttled.  Sent 2,183,137 bytes in 7 messages
+INFO:SyscoinElectrumX:[7] changing task concurrency from 10 to 1
+INFO:Prefetcher:new block height 418,747 hash d85947d5c81b217f64592da346bb5e3a8127ddc86faf3204fa787382dbb8c5b0
+INFO:DB:flush #1,030 took 0.0s.  Height 418,747 txs: 494,697 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:PeerManager:[1.2.3.4:50001 TCP] [Errno 111] Connect call failed ('1.2.3.4', 50001)
+INFO:SyscoinElectrumX:[7] disconnected whilst throttled.  Sent 2,185,198 bytes in 8 messages
+INFO:MemPool:2 txs 0.00 MB touching 4 addresses
+INFO:MemPool:3 txs 0.00 MB touching 7 addresses
+INFO:SyscoinElectrumX:[8] SSL 192.168.246.186:58910, 0 total
+INFO:SyscoinElectrumX:[9] SSL 127.0.0.1:57036, 1 total
+INFO:SyscoinElectrumX:[8] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[8] disconnected whilst throttled
+INFO:SyscoinElectrumX:[9] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[9] disconnected whilst throttled
+INFO:MemPool:3 txs 0.00 MB touching 7 addresses
+INFO:Prefetcher:new block height 418,748 hash 5b56b26debeb183ba2c0000c56d287692cf5f99de5a7ed8d3d69cc5203a35b12
+INFO:DB:flush #1,031 took 0.0s.  Height 418,748 txs: 494,701 (+4)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[10] SSL 192.168.246.186:59072, 0 total
+INFO:SyscoinElectrumX:[10] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[10] disconnected whilst throttled
+INFO:SyscoinElectrumX:[11] SSL 192.168.246.186:59102, 0 total
+INFO:SyscoinElectrumX:[11] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[11] disconnected whilst throttled
+INFO:SyscoinElectrumX:[12] SSL 192.168.246.186:59130, 0 total
+INFO:SyscoinElectrumX:[12] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[12] disconnected whilst throttled
+INFO:SyscoinElectrumX:[13] SSL 127.0.0.1:57258, 0 total
+INFO:SyscoinElectrumX:[13] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[13] disconnected whilst throttled
+INFO:SyscoinElectrumX:[14] SSL 192.168.246.186:59146, 0 total
+INFO:SyscoinElectrumX:[14] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[14] disconnected whilst throttled
+INFO:SyscoinElectrumX:[15] SSL 192.168.246.186:59188, 0 total
+INFO:SyscoinElectrumX:[15] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[15] disconnected whilst throttled
+INFO:Prefetcher:new block height 418,749 hash 2f13d4a40e71388b918e1027f3eb34639ebdeaaba17536a1c2701538669f590d
+INFO:DB:flush #1,032 took 0.0s.  Height 418,749 txs: 494,702 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:no proxy detected, will try later
+INFO:SyscoinElectrumX:[16] SSL 192.168.246.186:59254, 0 total
+INFO:SyscoinElectrumX:[16] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[16] disconnected whilst throttled
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[17] SSL 192.168.246.186:59288, 0 total
+INFO:SyscoinElectrumX:[17] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[17] disconnected whilst throttled
+INFO:SyscoinElectrumX:[18] SSL 192.168.246.186:59332, 0 total
+INFO:SyscoinElectrumX:[18] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[18] disconnected whilst throttled
+INFO:SyscoinElectrumX:[19] SSL 192.168.246.186:59388, 0 total
+INFO:SyscoinElectrumX:[19] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[19] disconnected whilst throttled
+INFO:SyscoinElectrumX:[20] SSL 192.168.246.186:59410, 0 total
+INFO:SyscoinElectrumX:[20] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[20] disconnected whilst throttled
+INFO:SyscoinElectrumX:[21] SSL 127.0.0.1:57542, 0 total
+INFO:SyscoinElectrumX:[21] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[21] disconnected whilst throttled
+INFO:SyscoinElectrumX:[22] SSL 192.168.246.186:59432, 0 total
+INFO:SyscoinElectrumX:[22] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[22] disconnected whilst throttled
+INFO:SyscoinElectrumX:[23] SSL 192.168.246.186:59470, 0 total
+INFO:SyscoinElectrumX:[23] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[23] disconnected whilst throttled
+INFO:Prefetcher:new block height 418,750 hash 3410976c05318d8466d6dc1d8b7a21b01f475264ca24b4d9fe5fe72fb0ed0162
+INFO:DB:flush #1,033 took 0.0s.  Height 418,750 txs: 494,703 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[24] SSL 192.168.246.186:59518, 0 total
+INFO:SyscoinElectrumX:[24] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[24] disconnected whilst throttled
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[25] SSL 192.168.246.186:59564, 0 total
+INFO:SyscoinElectrumX:[25] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[25] disconnected whilst throttled
+INFO:Prefetcher:new block height 418,751 hash 1504d949176fc765be9ff1de2e425cbea0f0b19a86a4ea579bafcb3165e66b97
+INFO:DB:flush #1,034 took 0.0s.  Height 418,751 txs: 494,704 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[26] SSL 192.168.246.186:59600, 0 total
+INFO:SyscoinElectrumX:[26] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[26] disconnected whilst throttled
+INFO:electrumx:ElectrumX server starting
+WARNING:Env:lowered maximum sessions from 1,000 to 674 because your open file limit is 1,024
+INFO:electrumx:logging level: INFO
+INFO:Controller:Python version: 3.7.6 (default, Dec 19 2019, 23:50:13)  [GCC 7.4.0]
+INFO:Controller:software version: ElectrumX 1.14.0
+INFO:Controller:aiorpcX version: 0.18.4
+INFO:Controller:supported protocol versions: 1.4-1.4.2
+INFO:Controller:event loop policy: None
+INFO:Controller:reorg limit is 2,000 blocks
+INFO:SyscoinDaemon:daemon #1 at localhost:8370/ (current)
+INFO:DB:switching current directory to /root/db
+INFO:DB:using leveldb for DB backend
+INFO:DB:opened UTXO DB (for sync: True)
+INFO:DB:DB version: 7
+INFO:DB:coin: Syscoin
+INFO:DB:network: mainnet
+INFO:DB:height: 418,751
+INFO:DB:tip: 1504d949176fc765be9ff1de2e425cbea0f0b19a86a4ea579bafcb3165e66b97
+INFO:DB:tx count: 494,704
+INFO:DB:flushing DB cache at 1,200 MB
+INFO:History:history DB version: 0
+INFO:History:flush count: 1,034
+INFO:DB:deleted 13 stale undo entries
+INFO:BlockProcessor:caught up to height 418751
+INFO:Prefetcher:caught up to daemon height 418,751
+INFO:SessionManager:RPC server listening on localhost:8000
+INFO:DB:closing DBs to re-open for serving
+INFO:DB:opened UTXO DB (for sync: False)
+INFO:DB:DB version: 7
+INFO:DB:coin: Syscoin
+INFO:DB:network: mainnet
+INFO:DB:height: 418,751
+INFO:DB:tip: 1504d949176fc765be9ff1de2e425cbea0f0b19a86a4ea579bafcb3165e66b97
+INFO:DB:tx count: 494,704
+INFO:History:history DB version: 0
+INFO:History:flush count: 1,034
+INFO:DB:populating header merkle cache...
+INFO:MemPool:beginning processing of daemon mempool.  This can take some time...
+INFO:SessionManager:max session count: 674
+INFO:SessionManager:session timeout: 600 seconds
+INFO:SessionManager:session cost hard limit 10,000
+INFO:SessionManager:session cost soft limit 1,000
+INFO:SessionManager:bandwidth unit cost 5,000
+INFO:SessionManager:request sleep 2,500ms
+INFO:SessionManager:request timeout 30s
+INFO:SessionManager:initial concurrent 10
+INFO:SessionManager:max response size 25,000,000 bytes
+INFO:SessionManager:advertising service tcp://1.2.3.4:50001
+INFO:SessionManager:advertising service ssl://1.2.3.4:50002
+INFO:SessionManager:advertising service wss://1.2.3.4:50004
+INFO:MemPool:compact fee histogram: []
+INFO:MemPool:synced in 0.02s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SessionManager:TCP server listening on all_interfaces:50001
+INFO:SessionManager:SSL server listening on all_interfaces:50002
+INFO:SessionManager:WSS server listening on all_interfaces:50004
+INFO:PeerManager:peer discovery: ON
+INFO:PeerManager:announce ourself: True
+INFO:PeerManager:my clearnet self: 1.2.3.4
+INFO:PeerManager:force use of proxy: False
+INFO:PeerManager:beginning peer discovery...
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:accepted new peer 1.2.3.4 from env
+INFO:PeerManager:no proxy detected, will try later
+INFO:SyscoinElectrumX:[0] SSL 192.168.246.186:59690, 0 total
+INFO:DB:header merkle cache populated in 21.6s
+INFO:SyscoinElectrumX:[1] SSL 127.0.0.1:57818, 1 total
+INFO:PeerManager:[1.2.3.4:50002 SSL] [Errno 111] Connect call failed ('1.2.3.4', 50002)
+INFO:SyscoinElectrumX:[2] SSL 192.168.246.186:59792, 0 total
+INFO:SyscoinElectrumX:[3] SSL 127.0.0.1:57920, 1 total
+INFO:Prefetcher:new block height 418,752 hash 4ef4a1e7e054127370120c9383850e2698f1b81623dce79e515cd21775ca2c69
+INFO:DB:flush #1,035 took 0.0s.  Height 418,752 txs: 494,705 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:PeerManager:[1.2.3.4:50001 TCP] [Errno 111] Connect call failed ('1.2.3.4', 50001)
+INFO:MemPool:2 txs 0.00 MB touching 21 addresses
+INFO:MemPool:2 txs 0.00 MB touching 21 addresses
+INFO:MemPool:3 txs 0.00 MB touching 29 addresses
+INFO:MemPool:3 txs 0.00 MB touching 29 addresses
+INFO:SyscoinElectrumX:[2] disconnected whilst throttled.  Sent 48,600,922 bytes in 128 messages
+INFO:Prefetcher:new block height 418,753 hash 80adbd0d99f169f9fcaddbaa0956c748cea7b24e70ff233a5924b17e5e0bd733
+INFO:DB:flush #1,036 took 0.0s.  Height 418,753 txs: 494,709 (+4)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,754 hash 7f4db1f1fd531fcb3b9c42fa33992aa50194e23c42504bfeff6f54a82114aa63
+INFO:DB:flush #1,037 took 0.0s.  Height 418,754 txs: 494,710 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[4] SSL 192.168.246.186:60750, 1 total
+INFO:SyscoinElectrumX:[4] changing task concurrency from 10 to 1
+INFO:Prefetcher:new block height 418,755 hash 7e4c974f99573c16b82609295c7a4810463fe908ab42ae4dc72d1f110adcbb8d
+INFO:DB:flush #1,038 took 0.0s.  Height 418,755 txs: 494,711 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,756 hash 76ed53671c4a7c995c029470d45fc5e6ff8ba3007b8cf3525a514b32556821de
+INFO:DB:flush #1,039 took 0.0s.  Height 418,756 txs: 494,712 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,757 hash 0709df20ec781c7a9fc3b0ebd0b519019e80733c57a6ea02fc5339f89496ab64
+INFO:DB:flush #1,040 took 0.0s.  Height 418,757 txs: 494,713 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,758 hash e7e3580a416ebed8b1ad79a47094bc30ab1998316ba6fbad8f7f6db4ec80ba06
+INFO:DB:flush #1,041 took 0.0s.  Height 418,758 txs: 494,714 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,759 hash 112fa738c085c108de96e2e85e22f3a2dc98e5896103329087d4dd615f539c8e
+INFO:DB:flush #1,042 took 0.0s.  Height 418,759 txs: 494,715 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:SyscoinElectrumX:[3] disconnected whilst throttled.  Sent 48,161,310 bytes in 79 messages
+INFO:SyscoinElectrumX:[4] disconnected whilst throttled
+INFO:SyscoinElectrumX:[5] SSL 192.168.246.186:33408, 0 total
+INFO:SyscoinElectrumX:[5] changing task concurrency from 10 to 1
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[5] incoming request Request('blockchain.scripthash.subscribe', ['817fcf76e2c86858ee4dc26dec72b628318386c0506cd1439793c6f285208adb']) timed out after 30 secs
+INFO:SyscoinElectrumX:[5] incoming request Request('blockchain.scripthash.subscribe', ['b53907328b8aa80bc73940eaaf5f673b187b6ef87710eddcdb268f636cfc71e0']) timed out after 30 secs
+INFO:SyscoinElectrumX:[5] incoming request Request('blockchain.scripthash.subscribe', ['0f31913ea64f5788bc4ca1872feee55387903e9a80c162912356afb45f4c7a3d']) timed out after 30 secs
+INFO:SyscoinElectrumX:[5] incoming request Request('blockchain.scripthash.subscribe', ['b2bf7879dd33d1c0ea4c186517c9f1b5b1d808fe4d8bb4dc9d38cd6693f79b24']) timed out after 30 secs
+INFO:SyscoinElectrumX:[5] disconnected whilst throttled
+INFO:SyscoinElectrumX:[6] SSL 192.168.246.186:33516, 0 total
+INFO:SyscoinElectrumX:[6] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[6] disconnected whilst throttled
+INFO:SyscoinElectrumX:[7] SSL 192.168.246.186:33560, 0 total
+INFO:SyscoinElectrumX:[7] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[7] disconnected whilst throttled
+INFO:SyscoinElectrumX:[8] SSL 192.168.246.186:33606, 0 total
+INFO:SyscoinElectrumX:[8] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[8] disconnected whilst throttled
+INFO:SyscoinElectrumX:[9] SSL 192.168.246.186:33614, 0 total
+INFO:SyscoinElectrumX:[9] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[9] disconnected whilst throttled
+INFO:SyscoinElectrumX:[10] SSL 127.0.0.1:59976, 0 total
+INFO:SyscoinElectrumX:[10] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[10] disconnected whilst throttled
+INFO:SyscoinElectrumX:[11] SSL 192.168.246.186:33652, 0 total
+INFO:SyscoinElectrumX:[11] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[11] disconnected whilst throttled
+INFO:SyscoinElectrumX:[12] SSL 192.168.246.186:33690, 0 total
+INFO:SyscoinElectrumX:[12] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[12] disconnected whilst throttled
+INFO:SyscoinElectrumX:[13] SSL 192.168.246.186:33734, 0 total
+INFO:SyscoinElectrumX:[13] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[13] disconnected whilst throttled
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[14] SSL 192.168.246.186:33770, 0 total
+INFO:SyscoinElectrumX:[14] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[14] disconnected whilst throttled
+INFO:Prefetcher:new block height 418,760 hash f423b09682a729af8e38263c71e8d6b28a53c7e2e2bb6b7d3773d8301836402d
+INFO:DB:flush #1,043 took 0.0s.  Height 418,760 txs: 494,716 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[15] SSL 192.168.246.186:33810, 0 total
+INFO:SyscoinElectrumX:[15] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[15] disconnected whilst throttled
+INFO:SyscoinElectrumX:[16] SSL 192.168.246.186:33854, 0 total
+INFO:SyscoinElectrumX:[16] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[16] disconnected whilst throttled
+INFO:SyscoinElectrumX:[17] SSL 192.168.246.186:33862, 0 total
+INFO:SyscoinElectrumX:[17] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[17] disconnected whilst throttled
+INFO:SyscoinElectrumX:[18] SSL 127.0.0.1:60222, 0 total
+INFO:SyscoinElectrumX:[18] changing task concurrency from 10 to 1
+INFO:SyscoinElectrumX:[19] SSL 192.168.246.186:33906, 1 total
+INFO:SyscoinElectrumX:[18] disconnected whilst throttled.  Sent 2,921,766 bytes in 8 messages
+INFO:SyscoinElectrumX:[19] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[19] disconnected whilst throttled
+INFO:SyscoinElectrumX:[20] SSL 192.168.246.186:33958, 0 total
+INFO:SyscoinElectrumX:[20] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[20] disconnected whilst throttled
+INFO:SyscoinElectrumX:[21] SSL 192.168.246.186:33996, 0 total
+INFO:SyscoinElectrumX:[21] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[21] disconnected whilst throttled
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:PeerManager:[1.2.3.4:50002 SSL] [Errno 111] Connect call failed ('1.2.3.4', 50002)
+INFO:SyscoinElectrumX:[22] SSL 192.168.246.186:34036, 0 total
+INFO:SyscoinElectrumX:[22] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[22] disconnected whilst throttled
+INFO:SyscoinElectrumX:[23] SSL 192.168.246.186:34078, 0 total
+INFO:SyscoinElectrumX:[23] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[23] disconnected whilst throttled
+INFO:PeerManager:[1.2.3.4:50001 TCP] [Errno 111] Connect call failed ('1.2.3.4', 50001)
+INFO:SyscoinElectrumX:[24] SSL 192.168.246.186:34112, 0 total
+INFO:SyscoinElectrumX:[24] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[24] disconnected whilst throttled
+INFO:SyscoinElectrumX:[25] SSL 127.0.0.1:60472, 0 total
+INFO:SyscoinElectrumX:[25] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[25] disconnected whilst throttled
+INFO:SyscoinElectrumX:[26] SSL 192.168.246.186:34124, 0 total
+INFO:SyscoinElectrumX:[26] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[26] disconnected whilst throttled
+INFO:SyscoinElectrumX:[27] SSL 192.168.246.186:34168, 0 total
+INFO:SyscoinElectrumX:[27] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[27] disconnected whilst throttled
+INFO:SyscoinElectrumX:[28] SSL 192.168.246.186:34204, 0 total
+INFO:SyscoinElectrumX:[28] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[28] disconnected whilst throttled
+INFO:Prefetcher:new block height 418,761 hash 99e0bb37f115eae854f999db9cfc6afd65638108e132e3cd48e28fd646a51ae3
+INFO:DB:flush #1,044 took 0.0s.  Height 418,761 txs: 494,717 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[29] SSL 192.168.246.186:34248, 0 total
+INFO:SyscoinElectrumX:[29] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[29] disconnected whilst throttled
+INFO:SyscoinElectrumX:[30] SSL 192.168.246.186:34294, 0 total
+INFO:SyscoinElectrumX:[30] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[30] disconnected whilst throttled
+INFO:SyscoinElectrumX:[31] SSL 192.168.246.186:34322, 0 total
+INFO:SyscoinElectrumX:[31] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[31] disconnected whilst throttled
+INFO:SyscoinElectrumX:[32] SSL 192.168.246.186:34348, 0 total
+INFO:SyscoinElectrumX:[32] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[32] disconnected whilst throttled
+INFO:SyscoinElectrumX:[33] SSL 127.0.0.1:60708, 0 total
+INFO:SyscoinElectrumX:[33] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[33] disconnected whilst throttled
+INFO:SyscoinElectrumX:[34] SSL 192.168.246.186:34362, 0 total
+INFO:SyscoinElectrumX:[34] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[34] disconnected whilst throttled
+INFO:SyscoinElectrumX:[35] SSL 192.168.246.186:34410, 0 total
+INFO:SyscoinElectrumX:[35] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[35] disconnected whilst throttled
+INFO:SyscoinElectrumX:[36] SSL 192.168.246.186:34452, 0 total
+INFO:SyscoinElectrumX:[36] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[36] disconnected whilst throttled
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:SyscoinElectrumX:[37] SSL 192.168.246.186:34486, 0 total
+INFO:SyscoinElectrumX:[37] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[37] disconnected whilst throttled
+INFO:SyscoinElectrumX:[38] SSL 192.168.246.186:34534, 0 total
+INFO:SyscoinElectrumX:[38] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[38] disconnected whilst throttled
+INFO:SyscoinElectrumX:[39] SSL 192.168.246.186:34572, 0 total
+INFO:SyscoinElectrumX:[39] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[39] disconnected whilst throttled
+INFO:SyscoinElectrumX:[40] SSL 192.168.246.186:34596, 0 total
+INFO:SyscoinElectrumX:[40] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[40] disconnected whilst throttled
+INFO:SyscoinElectrumX:[41] SSL 127.0.0.1:60956, 0 total
+INFO:SyscoinElectrumX:[41] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[41] disconnected whilst throttled
+INFO:SyscoinElectrumX:[42] SSL 192.168.246.186:34610, 0 total
+INFO:SyscoinElectrumX:[42] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[42] disconnected whilst throttled
+INFO:SyscoinElectrumX:[43] SSL 192.168.246.186:34654, 0 total
+INFO:SyscoinElectrumX:[43] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[43] disconnected whilst throttled
+INFO:SyscoinElectrumX:[44] SSL 192.168.246.186:34694, 0 total
+INFO:SyscoinElectrumX:[44] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[44] disconnected whilst throttled
+INFO:Prefetcher:new block height 418,762 hash 9ad6d5a7e9364a974ceb76bd2d11f7e7079900491186aacd5ae87636fb7e1b01
+INFO:DB:flush #1,045 took 0.0s.  Height 418,762 txs: 494,719 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[45] SSL 192.168.246.186:34728, 0 total
+INFO:SyscoinElectrumX:[45] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[45] disconnected whilst throttled
+INFO:SyscoinElectrumX:[46] SSL 192.168.246.186:34766, 0 total
+INFO:SyscoinElectrumX:[46] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[46] disconnected whilst throttled
+INFO:SyscoinElectrumX:[47] SSL 192.168.246.186:34816, 0 total
+INFO:SyscoinElectrumX:[47] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[47] disconnected whilst throttled
+INFO:SyscoinElectrumX:[48] SSL 192.168.246.186:34840, 0 total
+INFO:SyscoinElectrumX:[48] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[48] disconnected whilst throttled
+INFO:SyscoinElectrumX:[49] SSL 127.0.0.1:32970, 0 total
+INFO:SyscoinElectrumX:[49] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[49] disconnected whilst throttled
+INFO:SyscoinElectrumX:[50] SSL 192.168.246.186:34858, 0 total
+INFO:SyscoinElectrumX:[50] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[50] disconnected whilst throttled
+INFO:Prefetcher:new block height 418,763 hash 9743e0d983b60fe0463b2ba2155789ce470b012162d3388fa16b9e24b67af30a
+INFO:DB:flush #1,046 took 0.0s.  Height 418,763 txs: 494,720 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[51] SSL 192.168.246.186:34892, 0 total
+INFO:SyscoinElectrumX:[51] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[51] disconnected whilst throttled
+INFO:SyscoinElectrumX:[52] SSL 192.168.246.186:34926, 0 total
+INFO:SyscoinElectrumX:[52] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[52] disconnected whilst throttled
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:no proxy detected, will try later
+INFO:MemPool:1 txs 0.00 MB touching 11 addresses
+INFO:SyscoinElectrumX:[53] SSL 192.168.246.186:34980, 0 total
+INFO:SyscoinElectrumX:[53] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[53] disconnected whilst throttled
+INFO:SyscoinElectrumX:[54] SSL 192.168.246.186:35024, 0 total
+INFO:SyscoinElectrumX:[54] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[54] disconnected whilst throttled
+INFO:SyscoinElectrumX:[55] SSL 192.168.246.186:35060, 0 total
+INFO:SyscoinElectrumX:[55] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[55] disconnected whilst throttled
+INFO:SyscoinElectrumX:[56] SSL 192.168.246.186:35086, 0 total
+INFO:SyscoinElectrumX:[56] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[56] disconnected whilst throttled
+INFO:SyscoinElectrumX:[57] SSL 127.0.0.1:33216, 0 total
+INFO:SyscoinElectrumX:[57] changing task concurrency from 10 to 0
+INFO:Prefetcher:new block height 418,764 hash a47418dbb4d19142e083ecdfe2a9ac5d606c5215351da48427da61eb4f927bd3
+INFO:DB:flush #1,047 took 0.0s.  Height 418,764 txs: 494,722 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[57] disconnected whilst throttled
+INFO:SyscoinElectrumX:[58] SSL 192.168.246.186:35102, 0 total
+INFO:SyscoinElectrumX:[58] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[58] disconnected whilst throttled
+INFO:SyscoinElectrumX:[59] SSL 192.168.246.186:35148, 0 total
+INFO:SyscoinElectrumX:[59] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[59] disconnected whilst throttled
+INFO:SyscoinElectrumX:[60] SSL 192.168.246.186:35190, 0 total
+INFO:SyscoinElectrumX:[60] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[60] disconnected whilst throttled
+INFO:electrumx:ElectrumX server starting
+WARNING:Env:lowered maximum sessions from 1,000 to 674 because your open file limit is 1,024
+INFO:electrumx:logging level: INFO
+INFO:Controller:Python version: 3.7.6 (default, Dec 19 2019, 23:50:13)  [GCC 7.4.0]
+INFO:Controller:software version: ElectrumX 1.14.0
+INFO:Controller:aiorpcX version: 0.18.4
+INFO:Controller:supported protocol versions: 1.4-1.4.2
+INFO:Controller:event loop policy: None
+INFO:Controller:reorg limit is 2,000 blocks
+INFO:SyscoinDaemon:daemon #1 at localhost:8370/ (current)
+INFO:DB:switching current directory to /root/db
+INFO:DB:using leveldb for DB backend
+INFO:DB:opened UTXO DB (for sync: True)
+INFO:DB:DB version: 7
+INFO:DB:coin: Syscoin
+INFO:DB:network: mainnet
+INFO:DB:height: 418,764
+INFO:DB:tip: a47418dbb4d19142e083ecdfe2a9ac5d606c5215351da48427da61eb4f927bd3
+INFO:DB:tx count: 494,722
+INFO:DB:flushing DB cache at 1,200 MB
+INFO:History:history DB version: 0
+INFO:History:flush count: 1,047
+INFO:DB:deleted 13 stale undo entries
+INFO:SessionManager:RPC server listening on localhost:8000
+INFO:Prefetcher:catching up to daemon height 418,765 (1 blocks behind)
+INFO:BlockProcessor:our height: 418,765 daemon: 418,765 UTXOs 0MB hist 0MB
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:BlockProcessor:caught up to height 418765
+INFO:DB:flushed filesystem data in 0.00s
+INFO:History:flushed history in 0.0s for 7 addrs
+INFO:DB:flushed 1 blocks with 2 txs, 4 UTXO adds, 3 spends in 0.0s, committing...
+INFO:DB:flush #1,048 took 0.0s.  Height 418,765 txs: 494,724 (+2)
+INFO:DB:tx/sec since genesis: 7, since last flush: 17
+INFO:DB:sync time: 19h 27m 40s  ETA: 00s
+INFO:DB:closing DBs to re-open for serving
+INFO:DB:opened UTXO DB (for sync: False)
+INFO:DB:DB version: 7
+INFO:DB:coin: Syscoin
+INFO:DB:network: mainnet
+INFO:DB:height: 418,765
+INFO:DB:tip: 01a950201be92f1f80b47f6c28a172a508af782129999c52955b89c614c21785
+INFO:DB:tx count: 494,724
+INFO:History:history DB version: 0
+INFO:History:flush count: 1,048
+INFO:DB:deleted 1 stale undo entries
+INFO:DB:populating header merkle cache...
+INFO:MemPool:beginning processing of daemon mempool.  This can take some time...
+INFO:SessionManager:max session count: 674
+INFO:SessionManager:session timeout: 600 seconds
+INFO:SessionManager:session cost hard limit 10,000
+INFO:SessionManager:session cost soft limit 1,000
+INFO:SessionManager:bandwidth unit cost 5,000
+INFO:SessionManager:request sleep 2,500ms
+INFO:SessionManager:request timeout 30s
+INFO:SessionManager:initial concurrent 10
+INFO:SessionManager:max response size 25,000,000 bytes
+INFO:SessionManager:advertising service tcp://1.2.3.4:50001
+INFO:SessionManager:advertising service ssl://1.2.3.4:50002
+INFO:SessionManager:advertising service wss://1.2.3.4:50004
+INFO:MemPool:compact fee histogram: []
+INFO:MemPool:synced in 0.01s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SessionManager:TCP server listening on all_interfaces:50001
+INFO:SessionManager:SSL server listening on all_interfaces:50002
+INFO:SessionManager:WSS server listening on all_interfaces:50004
+INFO:PeerManager:peer discovery: ON
+INFO:PeerManager:announce ourself: True
+INFO:PeerManager:my clearnet self: 1.2.3.4
+INFO:PeerManager:force use of proxy: False
+INFO:PeerManager:beginning peer discovery...
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:accepted new peer 1.2.3.4 from env
+INFO:PeerManager:no proxy detected, will try later
+INFO:DB:header merkle cache populated in 22.2s
+INFO:PeerManager:[1.2.3.4:50002 SSL] [Errno 111] Connect call failed ('1.2.3.4', 50002)
+INFO:SyscoinElectrumX:[0] SSL 192.168.246.186:35478, 0 total
+INFO:SyscoinElectrumX:[1] SSL 127.0.0.1:33624, 1 total
+INFO:Prefetcher:new block height 418,766 hash 14a4eccb814d8ab3534213e4123c1371b8ffbbbfdbb7d5ef867efce57c2f6bbf
+INFO:DB:flush #1,049 took 0.0s.  Height 418,766 txs: 494,725 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,767 hash 3410ea57a8d4d4afddc5fa60b0c92e72fb6d2dcd960f004920e3b639667d7f31
+INFO:DB:flush #1,050 took 0.0s.  Height 418,767 txs: 494,726 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:PeerManager:[1.2.3.4:50001 TCP] [Errno 111] Connect call failed ('1.2.3.4', 50001)
+INFO:LocalRPC:[2] RPC 127.0.0.1:45452, 2 total
+INFO:LocalRPC:[3] RPC 127.0.0.1:45488, 2 total
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:Prefetcher:new block height 418,768 hash 20f851a227b75c70ca96849012a734e1e77a5d0559709a17cda231d04908b934
+INFO:DB:flush #1,051 took 0.0s.  Height 418,768 txs: 494,727 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:LocalRPC:[4] RPC 127.0.0.1:45566, 2 total
+INFO:LocalRPC:[5] RPC 127.0.0.1:45570, 2 total
+INFO:LocalRPC:[6] RPC 127.0.0.1:45582, 2 total
+INFO:Prefetcher:new block height 418,769 hash fe0fe93ef8959c43d6238d4934fbe09fde411fe805e81f9bf48871ed425e6b43
+INFO:DB:flush #1,052 took 0.0s.  Height 418,769 txs: 494,729 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:Prefetcher:new block height 418,770 hash c16465c579dfe67c7c2416c684520d114a3302eb1ddf3a5ff5694741204b42ec
+INFO:DB:flush #1,053 took 0.0s.  Height 418,770 txs: 494,731 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[0] disconnected whilst throttled.  Sent 48,575,337 bytes in 127 messages
+INFO:SyscoinElectrumX:[7] SSL 192.168.246.186:36516, 1 total
+INFO:SyscoinElectrumX:[7] changing task concurrency from 10 to 1
+INFO:LocalRPC:[8] RPC 127.0.0.1:46410, 2 total
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,771 hash baf58e94c9bd102981f6a5a7079146e323acc6b193fbadc8a17772a97b313234
+INFO:DB:flush #1,054 took 0.0s.  Height 418,771 txs: 494,732 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,772 hash 1ddaca6f4d7b5823b7c4c8d534b9a9da127ba0e084e5c20a2cd8dc8260c2d214
+INFO:DB:flush #1,055 took 0.0s.  Height 418,772 txs: 494,733 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,773 hash 720afa8893fe660babc07f4e90c910d11f3c226ac33ff51cc1e203d20286cb28
+INFO:DB:flush #1,056 took 0.0s.  Height 418,773 txs: 494,734 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:SyscoinElectrumX:[1] disconnected whilst throttled.  Sent 48,284,638 bytes in 80 messages
+INFO:SyscoinElectrumX:[9] SSL 127.0.0.1:35584, 1 total
+INFO:SyscoinElectrumX:[7] disconnected whilst throttled
+INFO:SyscoinElectrumX:[9] changing task concurrency from 10 to 1
+INFO:SyscoinElectrumX:[10] SSL 192.168.246.186:37504, 1 total
+INFO:SyscoinElectrumX:[9] disconnected whilst throttled.  Sent 1,444,888 bytes in 6 messages
+INFO:SyscoinElectrumX:[10] changing task concurrency from 10 to 1
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[10] disconnected whilst throttled.  Sent 2,194,644 bytes in 43 messages
+INFO:SyscoinElectrumX:[11] SSL 192.168.246.186:37574, 0 total
+INFO:SyscoinElectrumX:[11] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[11] disconnected whilst throttled
+INFO:SyscoinElectrumX:[12] SSL 192.168.246.186:37620, 0 total
+INFO:SyscoinElectrumX:[12] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[12] disconnected whilst throttled
+INFO:SyscoinElectrumX:[13] SSL 192.168.246.186:37656, 0 total
+INFO:SyscoinElectrumX:[13] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[13] disconnected whilst throttled
+INFO:SyscoinElectrumX:[14] SSL 192.168.246.186:37684, 0 total
+INFO:SyscoinElectrumX:[14] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[14] disconnected whilst throttled
+INFO:SyscoinElectrumX:[15] SSL 192.168.246.186:37698, 0 total
+INFO:SyscoinElectrumX:[15] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[15] disconnected whilst throttled
+INFO:SyscoinElectrumX:[16] SSL 127.0.0.1:35828, 0 total
+INFO:SyscoinElectrumX:[16] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[16] disconnected whilst throttled
+INFO:SyscoinElectrumX:[17] SSL 192.168.246.186:37742, 0 total
+INFO:SyscoinElectrumX:[17] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[17] disconnected whilst throttled
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[18] SSL 192.168.246.186:37778, 0 total
+INFO:SyscoinElectrumX:[18] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[18] disconnected whilst throttled
+INFO:SyscoinElectrumX:[19] SSL 192.168.246.186:37816, 0 total
+INFO:SyscoinElectrumX:[19] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[19] disconnected whilst throttled
+INFO:SyscoinElectrumX:[20] SSL 192.168.246.186:37868, 0 total
+INFO:SyscoinElectrumX:[20] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[20] disconnected whilst throttled
+INFO:Prefetcher:new block height 418,774 hash cce0cce29639a9fc1e3ea23d78c805c153a773e2d21dcff14ad29fcb180cde8a
+INFO:DB:flush #1,057 took 0.0s.  Height 418,774 txs: 494,735 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[21] SSL 192.168.246.186:37912, 0 total
+INFO:SyscoinElectrumX:[21] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[21] disconnected whilst throttled
+INFO:SyscoinElectrumX:[22] SSL 192.168.246.186:37958, 0 total
+INFO:SyscoinElectrumX:[22] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[22] disconnected whilst throttled
+INFO:SyscoinElectrumX:[23] SSL 192.168.246.186:37970, 0 total
+INFO:SyscoinElectrumX:[23] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[23] disconnected whilst throttled
+INFO:SyscoinElectrumX:[24] SSL 127.0.0.1:36100, 0 total
+INFO:SyscoinElectrumX:[24] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[24] disconnected whilst throttled
+INFO:SyscoinElectrumX:[25] SSL 192.168.246.186:38008, 0 total
+INFO:SyscoinElectrumX:[25] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[25] disconnected whilst throttled
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:SyscoinElectrumX:[26] SSL 192.168.246.186:38040, 0 total
+INFO:SyscoinElectrumX:[26] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[26] disconnected whilst throttled
+INFO:PeerManager:[1.2.3.4:50002 SSL] [Errno 111] Connect call failed ('1.2.3.4', 50002)
+INFO:LocalRPC:[27] RPC 127.0.0.1:47880, 0 total
+INFO:LocalRPC:[28] RPC 127.0.0.1:47884, 0 total
+INFO:LocalRPC:[29] RPC 127.0.0.1:47890, 0 total
+INFO:SyscoinElectrumX:[30] SSL 192.168.246.186:38078, 0 total
+INFO:SyscoinElectrumX:[30] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[30] disconnected whilst throttled
+INFO:SyscoinElectrumX:[31] SSL 192.168.246.186:38132, 0 total
+INFO:SyscoinElectrumX:[31] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[31] disconnected whilst throttled
+INFO:PeerManager:[1.2.3.4:50001 TCP] [Errno 111] Connect call failed ('1.2.3.4', 50001)
+INFO:SyscoinElectrumX:[32] SSL 192.168.246.186:38168, 0 total
+INFO:SyscoinElectrumX:[32] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[32] disconnected whilst throttled
+INFO:SyscoinElectrumX:[33] SSL 192.168.246.186:38202, 0 total
+INFO:SyscoinElectrumX:[33] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[33] disconnected whilst throttled
+INFO:SyscoinElectrumX:[34] SSL 192.168.246.186:38214, 0 total
+INFO:SyscoinElectrumX:[34] changing task concurrency from 10 to 0
+INFO:SyscoinElectrumX:[34] disconnected whilst throttled
+INFO:SyscoinElectrumX:[35] SSL 127.0.0.1:36344, 0 total
+INFO:SyscoinElectrumX:[35] changing task concurrency from 10 to 0
+INFO:Prefetcher:new block height 418,775 hash 1e435cf389130bc98882b53245cea8bb9b445e2b948324dd6bf927727c0911c2
+INFO:DB:flush #1,058 took 0.0s.  Height 418,775 txs: 494,736 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[35] disconnected whilst throttled
+INFO:electrumx:ElectrumX server starting
+WARNING:Env:lowered maximum sessions from 1,000 to 674 because your open file limit is 1,024
+INFO:electrumx:logging level: INFO
+INFO:Controller:Python version: 3.7.6 (default, Dec 19 2019, 23:50:13)  [GCC 7.4.0]
+INFO:Controller:software version: ElectrumX 1.14.0
+INFO:Controller:aiorpcX version: 0.18.4
+INFO:Controller:supported protocol versions: 1.4-1.4.2
+INFO:Controller:event loop policy: None
+INFO:Controller:reorg limit is 2,000 blocks
+INFO:SyscoinDaemon:daemon #1 at localhost:8370/ (current)
+INFO:DB:switching current directory to /root/db
+INFO:DB:using leveldb for DB backend
+INFO:DB:opened UTXO DB (for sync: True)
+INFO:DB:DB version: 7
+INFO:DB:coin: Syscoin
+INFO:DB:network: mainnet
+INFO:DB:height: 418,775
+INFO:DB:tip: 1e435cf389130bc98882b53245cea8bb9b445e2b948324dd6bf927727c0911c2
+INFO:DB:tx count: 494,736
+INFO:DB:flushing DB cache at 1,200 MB
+INFO:History:history DB version: 0
+INFO:History:flush count: 1,058
+INFO:DB:deleted 10 stale undo entries
+INFO:SessionManager:RPC server listening on localhost:8000
+INFO:Prefetcher:catching up to daemon height 418,777 (2 blocks behind)
+INFO:BlockProcessor:our height: 418,777 daemon: 418,777 UTXOs 0MB hist 0MB
+INFO:BlockProcessor:processed 2 blocks size 0.00 MB in 0.0s
+INFO:BlockProcessor:caught up to height 418777
+INFO:DB:flushed filesystem data in 0.00s
+INFO:History:flushed history in 0.0s for 9 addrs
+INFO:DB:flushed 2 blocks with 4 txs, 7 UTXO adds, 3 spends in 0.0s, committing...
+INFO:DB:flush #1,059 took 0.0s.  Height 418,777 txs: 494,740 (+4)
+INFO:DB:tx/sec since genesis: 6, since last flush: 36
+INFO:DB:sync time: 19h 39m 28s  ETA: 00s
+INFO:DB:closing DBs to re-open for serving
+INFO:DB:opened UTXO DB (for sync: False)
+INFO:DB:DB version: 7
+INFO:DB:coin: Syscoin
+INFO:DB:network: mainnet
+INFO:DB:height: 418,777
+INFO:DB:tip: 53e0be13184e595fa41e799a0fa248be97835d8f5132f9aa9c620c4245a2d2a7
+INFO:DB:tx count: 494,740
+INFO:History:history DB version: 0
+INFO:History:flush count: 1,059
+INFO:DB:deleted 2 stale undo entries
+INFO:DB:populating header merkle cache...
+INFO:MemPool:beginning processing of daemon mempool.  This can take some time...
+INFO:SessionManager:max session count: 674
+INFO:SessionManager:session timeout: 600 seconds
+INFO:SessionManager:session cost hard limit 100,000
+INFO:SessionManager:session cost soft limit 1,000
+INFO:SessionManager:bandwidth unit cost 5,000
+INFO:SessionManager:request sleep 2,500ms
+INFO:SessionManager:request timeout 30s
+INFO:SessionManager:initial concurrent 10
+INFO:SessionManager:max response size 25,000,000 bytes
+INFO:SessionManager:advertising service tcp://1.2.3.4:50001
+INFO:SessionManager:advertising service ssl://1.2.3.4:50002
+INFO:SessionManager:advertising service wss://1.2.3.4:50004
+INFO:MemPool:compact fee histogram: []
+INFO:MemPool:synced in 0.00s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SessionManager:TCP server listening on all_interfaces:50001
+INFO:SessionManager:SSL server listening on all_interfaces:50002
+INFO:SessionManager:WSS server listening on all_interfaces:50004
+INFO:PeerManager:peer discovery: ON
+INFO:PeerManager:announce ourself: True
+INFO:PeerManager:my clearnet self: 1.2.3.4
+INFO:PeerManager:force use of proxy: False
+INFO:PeerManager:beginning peer discovery...
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:accepted new peer 1.2.3.4 from env
+INFO:PeerManager:no proxy detected, will try later
+INFO:DB:header merkle cache populated in 29.4s
+INFO:PeerManager:[1.2.3.4:50002 SSL] [Errno 111] Connect call failed ('1.2.3.4', 50002)
+INFO:SyscoinElectrumX:[0] SSL 192.168.246.186:38578, 0 total
+INFO:Prefetcher:new block height 418,779 hash 2991e9a0ee4b4c00d58f639017b358236f24cf82416c63bef5b939a955344b51
+INFO:DB:flush #1,060 took 0.0s.  Height 418,779 txs: 494,742 (+2)
+INFO:BlockProcessor:processed 2 blocks size 0.00 MB in 0.0s
+INFO:PeerManager:[1.2.3.4:50001 TCP] [Errno 111] Connect call failed ('1.2.3.4', 50001)
+INFO:SyscoinElectrumX:[1] SSL 127.0.0.1:36878, 1 total
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,780 hash 420818065819806b891cec64709b532068427285595d6b4a5e924bc9449b6580
+INFO:DB:flush #1,061 took 0.0s.  Height 418,780 txs: 494,743 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,781 hash 40a531b2146d6c81b12d0c101001616ed5ce1d56215b1574e3ec0314a7fbe7b4
+INFO:DB:flush #1,062 took 0.0s.  Height 418,781 txs: 494,744 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,782 hash 1561867be3210abd3010553d968efc8a9ddf5b591caf7286d2129a6cd4e61664
+INFO:DB:flush #1,063 took 0.0s.  Height 418,782 txs: 494,745 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,783 hash 6981389bcde92010351ec7f51dd5052c2256078538bec38f89d16a395c4bea4b
+INFO:DB:flush #1,064 took 0.0s.  Height 418,783 txs: 494,746 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:LocalRPC:[2] RPC 127.0.0.1:49100, 2 total
+INFO:LocalRPC:[3] RPC 127.0.0.1:49114, 2 total
+INFO:LocalRPC:[4] RPC 127.0.0.1:49116, 2 total
+INFO:LocalRPC:[5] RPC 127.0.0.1:49130, 2 total
+INFO:LocalRPC:[6] RPC 127.0.0.1:49138, 2 total
+INFO:LocalRPC:[7] RPC 127.0.0.1:49142, 2 total
+INFO:LocalRPC:[8] RPC 127.0.0.1:49152, 2 total
+INFO:LocalRPC:[9] RPC 127.0.0.1:49154, 2 total
+INFO:LocalRPC:[10] RPC 127.0.0.1:49158, 2 total
+INFO:Prefetcher:new block height 418,784 hash 44333b2d6810393714b362fe6ca3bc118803be10bc605a1ebc698339d2a0894f
+INFO:DB:flush #1,065 took 0.0s.  Height 418,784 txs: 494,747 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:Prefetcher:new block height 418,785 hash f5a15feb09f7672f04c766dfbf937f5f3f48af5def9b405685afd66e1da60493
+INFO:DB:flush #1,066 took 0.0s.  Height 418,785 txs: 494,750 (+3)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,786 hash 9c9d6f424815d87fbfd132989632508870d5ca952453aa7daa396bab062eda37
+INFO:DB:flush #1,067 took 0.0s.  Height 418,786 txs: 494,751 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:LocalRPC:[11] RPC 127.0.0.1:50520, 2 total
+INFO:Prefetcher:new block height 418,787 hash 1f6c8aa4e805f16941d654744a585b6ed3f786573d7102de15e29a265030c4a7
+INFO:DB:flush #1,068 took 0.0s.  Height 418,787 txs: 494,752 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,788 hash b69dbd71b34c7442068492e6fb7412918edd0ab47df22f43a716c438539e5bf3
+INFO:DB:flush #1,069 took 0.0s.  Height 418,788 txs: 494,753 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:PeerManager:[1.2.3.4:50002 SSL] [Errno 111] Connect call failed ('1.2.3.4', 50002)
+INFO:PeerManager:[1.2.3.4:50001 TCP] [Errno 111] Connect call failed ('1.2.3.4', 50001)
+INFO:Prefetcher:new block height 418,789 hash 5e9c111cc54b8173adda23465e36f39280bf9125d7d8da5e19c33908139e4f52
+INFO:DB:flush #1,070 took 0.0s.  Height 418,789 txs: 494,754 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,790 hash 4b0e7a029d38034b2fcc6c8a4404f9d96388d18dc1ac2083d100e76897ff09bd
+INFO:DB:flush #1,071 took 0.0s.  Height 418,790 txs: 494,755 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,791 hash 8abf72094cebd1d2b6d9f54bb042233cbfba2cc6ed39daec66ab1d804916d04e
+INFO:DB:flush #1,072 took 0.0s.  Height 418,791 txs: 494,756 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,792 hash 6291af9ada70fbd0e34ed8abaf03632ecfcaa754768041723dfc4a458b31295c
+INFO:DB:flush #1,073 took 0.0s.  Height 418,792 txs: 494,757 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:no proxy detected, will try later
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,793 hash a29b6629d5f0dc3bf88cdc6021535144f041aae6ee32c2e918e7be414e1a86f8
+INFO:DB:flush #1,074 took 0.0s.  Height 418,793 txs: 494,758 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,794 hash ae8a7d97c6ad45f6f2a31d2cafff4e01ed0ce03d8e76dfa261b695d61f8774a3
+INFO:DB:flush #1,075 took 0.0s.  Height 418,794 txs: 494,759 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:compact fee histogram: []
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:Prefetcher:new block height 418,795 hash cd0e4d511038f97c9045c99037c009a168aacaa196b5729eddcf976f2e7b3999
+INFO:DB:flush #1,076 took 0.0s.  Height 418,795 txs: 494,761 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,796 hash a6b63eeade6d8f19eb549eb45c52ad6ae0b3bcf311a0174ad4080a92baf637fc
+INFO:DB:flush #1,077 took 0.0s.  Height 418,796 txs: 494,762 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,797 hash f6eeb6712efa29afdec685545368afb33a70e30a1bf822cdf58daa627b56cfcb
+INFO:DB:flush #1,078 took 0.0s.  Height 418,797 txs: 494,763 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,798 hash 79ea3f05d97ef6d1905740059942cd7ec44132a79c8676d9329e55581dfa9b08
+INFO:DB:flush #1,079 took 0.0s.  Height 418,798 txs: 494,764 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,799 hash 864aff91a9cc42fba8d5782ab79c4990ec70daab5aa2531090716c88651975c6
+INFO:DB:flush #1,080 took 0.0s.  Height 418,799 txs: 494,765 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,800 hash bfb9fbb74d499afbc8c89b63e9b75b7c0c0798d589fd6173e9092a51364a4fb4
+INFO:DB:flush #1,081 took 0.0s.  Height 418,800 txs: 494,766 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,801 hash 7a0001c632b56250341a51a6355f1713d79ee974a493c529b9c1ed012a655076
+INFO:DB:flush #1,082 took 0.0s.  Height 418,801 txs: 494,767 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,802 hash 99cb5d72809f73dc068cf56d7bd971e0a5809cfa6d6814926fe71e7001f817b0
+INFO:DB:flush #1,083 took 0.0s.  Height 418,802 txs: 494,768 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,803 hash a6c936e1cc34dbec1b0a2b27126578d93e7c740d3d2b44984dadfc2e6e6c1bd6
+INFO:DB:flush #1,084 took 0.0s.  Height 418,803 txs: 494,769 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,804 hash f62906b9e2098575132791738f2717dd3216c8eb70d6ab3c89e2508f409a6b31
+INFO:DB:flush #1,085 took 0.0s.  Height 418,804 txs: 494,770 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,805 hash e9bb4e72c783b9670c1f5f2e3363c12107299a95dbbc6bbff7eb87a1aa7439b4
+INFO:DB:flush #1,086 took 0.0s.  Height 418,805 txs: 494,771 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,806 hash 95bfc769b334a2b02fd213b7d90023e628b46c55a46f407a2dc1818b90753c87
+INFO:DB:flush #1,087 took 0.0s.  Height 418,806 txs: 494,772 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,807 hash 3f135f4079f9bc7a2b2cdbe1dff7b5cbec33432180590662bfdf8bb95e00eb6a
+INFO:DB:flush #1,088 took 0.0s.  Height 418,807 txs: 494,773 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[0] disconnected whilst throttled.  Sent 351,185,059 bytes in 701 messages
+INFO:Prefetcher:new block height 418,808 hash 06100619e4a5804bd1f602c2453756ec457e14799c92ecaf1370948cbbbf4e0d
+INFO:DB:flush #1,089 took 0.0s.  Height 418,808 txs: 494,774 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[12] SSL 192.168.246.186:45154, 0 total
+INFO:SyscoinElectrumX:[13] SSL 192.168.246.186:45174, 0 total
+INFO:Prefetcher:new block height 418,809 hash 18e4aba440568e03fe5244d538a222240a7df3e9537a4df26a19044421b66a9b
+INFO:DB:flush #1,090 took 0.0s.  Height 418,809 txs: 494,775 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[14] SSL 192.168.246.186:45270, 0 total
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,810 hash 7fe2fdb9bfdc3fa4ed5c15b2cd5ef32d3e80aa7a41f3a1426ecda88d791a4922
+INFO:DB:flush #1,091 took 0.0s.  Height 418,810 txs: 494,776 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[14] changing task concurrency from 10 to 5
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:no proxy detected, will try later
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[15] SSL 127.0.0.1:43654, 1 total
+INFO:Prefetcher:new block height 418,811 hash c1ee5cc6b2831bd017c4da3a643655d6b2ecaaa7a1a2377bccddef0f9ab0ba71
+INFO:DB:flush #1,092 took 0.0s.  Height 418,811 txs: 494,777 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:PeerManager:[1.2.3.4:50002 SSL] [Errno 111] Connect call failed ('1.2.3.4', 50002)
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:PeerManager:[1.2.3.4:50001 TCP] [Errno 111] Connect call failed ('1.2.3.4', 50001)
+INFO:PeerManager:forgetting unreachable peer: 1.2.3.4
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:Prefetcher:new block height 418,812 hash 8cbc18384936584305785f1979d9a90b4610ea7a930ce963e28ddbb8fea795b3
+INFO:DB:flush #1,093 took 0.0s.  Height 418,812 txs: 494,778 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[14] disconnected whilst throttled
+INFO:SyscoinElectrumX:[16] SSL 192.168.246.186:46398, 1 total
+INFO:SyscoinElectrumX:[16] changing task concurrency from 10 to 6
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,813 hash e700291939118f9af9e500f242837e6303be64679ec3c3d38e6f0b8d1ca78c8a
+INFO:DB:flush #1,094 took 0.0s.  Height 418,813 txs: 494,779 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:Prefetcher:new block height 418,814 hash d9bae0e5b59cc50f7ee5729e2c9562e4b683c4586e0d6db5294fb7b7b3b9e06a
+INFO:DB:flush #1,095 took 0.0s.  Height 418,814 txs: 494,781 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:Prefetcher:new block height 418,815 hash 905f6990733c3a345eb1471fc32651ec7ce0ee38718c52debfd8ba9507582928
+INFO:DB:flush #1,096 took 0.0s.  Height 418,815 txs: 494,782 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,816 hash a5b954cfa358a7bf167fde5c9b0f4c344cadcc17d33640eea8e5d9dfcff6621e
+INFO:DB:flush #1,097 took 0.0s.  Height 418,816 txs: 494,783 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:SyscoinElectrumX:[16] disconnected whilst throttled
+INFO:Prefetcher:new block height 418,817 hash b8a85fe19a2cdecf022fb5cbb8557141c3a7582c72cf5579e75bb74ddba1a67b
+INFO:DB:flush #1,098 took 0.0s.  Height 418,817 txs: 494,785 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[17] SSL 192.168.246.186:48618, 0 total
+INFO:SyscoinElectrumX:[18] SSL 127.0.0.1:46746, 1 total
+INFO:SyscoinElectrumX:[17] changing task concurrency from 10 to 7
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:no proxy detected, will try later
+INFO:MemPool:1 txs 0.00 MB touching 2 addresses
+INFO:Prefetcher:new block height 418,818 hash 8142b4a71ce149a1d13d16feb523fd70f70314a1e43f7a5b8406584e8e084568
+INFO:DB:flush #1,099 took 0.0s.  Height 418,818 txs: 494,786 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,819 hash 82c0336f430d9a403fd8cd2bec19476bdc7d34119bb2cd3c7824619f07e3d5fc
+INFO:DB:flush #1,100 took 0.0s.  Height 418,819 txs: 494,788 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,820 hash b570155660aecc47be2baa9f4931a4babc3a6b5ca97a67633f6e26946faf5e45
+INFO:DB:flush #1,101 took 0.0s.  Height 418,820 txs: 494,789 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,821 hash f4995efa8262c81a1b6843a6430bf3755b0a8b6ce82ab59858a1495226eca353
+INFO:DB:flush #1,102 took 0.0s.  Height 418,821 txs: 494,790 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,822 hash 6b2a588426f069f645d818d5b31846a24f940e51e38bb00288a9c6f5e829f9d1
+INFO:DB:flush #1,103 took 0.0s.  Height 418,822 txs: 494,791 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,823 hash 43e41a16f90a23f87da236be0f20bc6dffd716be65a4a0f9f6831a04b33ddbef
+INFO:DB:flush #1,104 took 0.0s.  Height 418,823 txs: 494,792 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:compact fee histogram: []
+INFO:Prefetcher:new block height 418,824 hash 6bc0b0dc7c3cf4e6c6e734c20521277621c7c310c8b1da15cd6203e01175993e
+INFO:DB:flush #1,105 took 0.0s.  Height 418,824 txs: 494,793 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,825 hash 1c86e95ff617364fa41643e7431d96d87ab0a9b431cca504e2f2bf6a46fa6710
+INFO:DB:flush #1,106 took 0.0s.  Height 418,825 txs: 494,794 (+1)
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[17] disconnected whilst throttled.  Sent 130,827,882 bytes in 284 messages
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,826 hash c9b397ee757db30d75d81ffb16e7c383873c4cdcd9e025ed2034060dc5209e58
+INFO:DB:flush #1,107 took 0.0s.  Height 418,826 txs: 494,795 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,827 hash ba555fe5074a4c65360d171ea7080dde9e61026c228d3906163f683e5105e8b8
+INFO:DB:flush #1,108 took 0.0s.  Height 418,827 txs: 494,796 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,828 hash a8d77a90c2bde1543cfb04163f589405b4d3a77409bf65829e20663895d08f3a
+INFO:DB:flush #1,109 took 0.0s.  Height 418,828 txs: 494,797 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:Prefetcher:new block height 418,829 hash a62337a3c11d53483704973e729811d6e1bc558799c41a62e30124510c60b7f0
+INFO:DB:flush #1,110 took 0.0s.  Height 418,829 txs: 494,798 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,830 hash a4d8e116ae86fc520f02845bb15a17649afb7a1dce8decb20b99c6b63f2e4352
+INFO:DB:flush #1,111 took 0.0s.  Height 418,830 txs: 494,799 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SessionManager:ID     Flags            Client Proto    Cost   XCost  Reqs   Txs    Subs    Recv Recv KB    Sent Sent KB      Time                  Peer
+INFO:SessionManager:18     S10      electrum/3.3.8   1.4       2     462     0     0       0       6       0      19     750    15m31s       127.0.0.1:46746
+INFO:SessionManager:{"coin": "Syscoin", "daemon": "localhost:8370/", "daemon height": 418830, "db height": 418830, "db_flush_count": 1111, "groups": 4, "history cache": "135 lookups 108 hits 27 entries", "merkle cache": "0 lookups 0 hits 0 entries", "pid": 128277, "peers": {"bad": 0, "good": 0, "never": 0, "stale": 0, "total": 0}, "request counts": {"server.version": 9, "blockchain.headers.subscribe": 9, "blockchain.block.header": 83, "server.banner": 6, "server.donation_address": 6, "server.peers.subscribe": 6, "blockchain.relayfee": 6, "mempool.get_fee_histogram": 45, "blockchain.estimatefee": 180, "blockchain.block.headers": 677, "blockchain.scripthash.subscribe": 135, "sessions": 10, "server.ping": 14}, "request total": 1186, "sessions": {"count": 1, "count with subs": 0, "errors": 0, "logged": 0, "pending requests": 0, "subs": 0}, "tx hashes cache": "0 lookups 0 hits 0 entries", "txs sent": 0, "uptime": "01h 00m 00s", "version": "ElectrumX 1.14.0"}
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:no proxy detected, will try later
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,831 hash 8bb415fc89b1e05fc8ab0f379ad73a6b4e59a1d960fe76619420de2ba71cf5db
+INFO:DB:flush #1,112 took 0.0s.  Height 418,831 txs: 494,800 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,832 hash 3fb3073b4217b4c36a497a04b496d8256450fb06d50e52fc0f4d199283bd82b4
+INFO:DB:flush #1,113 took 0.0s.  Height 418,832 txs: 494,801 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,833 hash ebf0db6e5392cdf521a36343f36b7ffb3b822e8c6f6bc53c104dabeca6d39c85
+INFO:DB:flush #1,114 took 0.0s.  Height 418,833 txs: 494,802 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,834 hash eb6ba5ae4cc0cc443ec69120c333804fc7ef0698c1894f2bfe7910f893594cc0
+INFO:DB:flush #1,115 took 0.0s.  Height 418,834 txs: 494,803 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SessionManager:closing stale session ids 18
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,835 hash 2c35923e5f084ffe645145e4953a9168110124fd3fd095b2448d4673598b3cae
+INFO:DB:flush #1,116 took 0.0s.  Height 418,835 txs: 494,804 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,836 hash 763f50214aebf1246233a7b7771c49037a054402d252848a82644a292ea82273
+INFO:DB:flush #1,117 took 0.0s.  Height 418,836 txs: 494,805 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:Prefetcher:new block height 418,837 hash 681b8c1928123b58996d766eebf3c7fce26f5a84ac56c1c0129d4566461ec471
+INFO:DB:flush #1,118 took 0.0s.  Height 418,837 txs: 494,806 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,838 hash 8dc1fb0588b2cd90b7fdf5286702a992f8c494981db3bbbf5e1c46cef3a7c2cb
+INFO:DB:flush #1,119 took 0.0s.  Height 418,838 txs: 494,807 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,839 hash 029cd786eab667071a73d8df3a5273342567c7fbaf03588a6dc1878de3da1f15
+INFO:DB:flush #1,120 took 0.0s.  Height 418,839 txs: 494,808 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:Prefetcher:new block height 418,840 hash 34e92ed19bc8457a6b520af63e7edc6559aac8f94626ccf8ac2722d9c1d41cae
+INFO:DB:flush #1,121 took 0.0s.  Height 418,840 txs: 494,810 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,841 hash bfe59171eed9fe045a500d9dbe4bf89025d57220aba751ffb493b94178ba8fdb
+INFO:DB:flush #1,122 took 0.0s.  Height 418,841 txs: 494,811 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,842 hash ff4c87154888ff80a04e01b9bdc3c39751497b2fcf45398bc5a3e0d1ea7f3d9f
+INFO:DB:flush #1,123 took 0.0s.  Height 418,842 txs: 494,812 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,843 hash d3b087800deee7108f3aaf23e7db6a571f579080fd2bdbe451f24a952bc4f633
+INFO:DB:flush #1,124 took 0.0s.  Height 418,843 txs: 494,814 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,844 hash 07074d4044a63c4e944dc86a350b906d94500a948befb0ca1ed727b163155bfa
+INFO:DB:flush #1,125 took 0.0s.  Height 418,844 txs: 494,815 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:no proxy detected, will try later
+INFO:Prefetcher:new block height 418,845 hash 9c10b91580dc6d839519d4da372ea8264e5d2a415ac17be40f28845bdc99f19c
+INFO:DB:flush #1,126 took 0.0s.  Height 418,845 txs: 494,816 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:compact fee histogram: []
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:1 txs 0.00 MB touching 2 addresses
+INFO:Prefetcher:new block height 418,846 hash c65cd50b3a864b4d2010bbdd4a71588e7923f54a2d42a985239042f568f7cd8a
+INFO:DB:flush #1,127 took 0.0s.  Height 418,846 txs: 494,818 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,847 hash d28a6e5689c2d6c348e10099d85d078a6876c6fbda9fb69eb26d1b24ccff162f
+INFO:DB:flush #1,128 took 0.0s.  Height 418,847 txs: 494,819 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,848 hash e05009e2ec4bbf83a58cb4a61d95b76c468f8de7d174d17ca6d8769d73d00ae6
+INFO:DB:flush #1,129 took 0.0s.  Height 418,848 txs: 494,820 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,849 hash df30381a6445a16f4c49589ce308ebd308e723f73c75bb94bf75e309d9c5807c
+INFO:DB:flush #1,130 took 0.0s.  Height 418,849 txs: 494,821 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,850 hash bfcb09863fb4a93f9dcb7199ab5b9511b4843266e1234d432fbb9ed76095dbec
+INFO:DB:flush #1,131 took 0.0s.  Height 418,850 txs: 494,822 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:1 txs 0.00 MB touching 5 addresses
+INFO:MemPool:1 txs 0.00 MB touching 5 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:MemPool:1 txs 0.00 MB touching 5 addresses
+INFO:Prefetcher:new block height 418,851 hash fc81c8bb0961f505ef609a7c11b8bd14719157d3d6b7031d6238dfdafe33c024
+INFO:DB:flush #1,132 took 0.0s.  Height 418,851 txs: 494,824 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,852 hash 1cfb0d7374d15b671dbbd983a2564e53cfe75af00f7f48fa3eddb4410f714951
+INFO:DB:flush #1,133 took 0.0s.  Height 418,852 txs: 494,825 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,853 hash 1e297d87bec7e43ded3f34d0d8d8b66bdff92ea4774d1a95f2e099f7242d9443
+INFO:DB:flush #1,134 took 0.0s.  Height 418,853 txs: 494,826 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,854 hash 2f19b0eb56ee25a84bf345f6cbcaba0affc1a295d1bd2d4a3f8fd53387d19815
+INFO:DB:flush #1,135 took 0.0s.  Height 418,854 txs: 494,827 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:no proxy detected, will try later
+INFO:Prefetcher:new block height 418,855 hash 3f74ec9b8b599368392b1468a7ed4621b7b3e41eb3c9336c636ce8a582fedb77
+INFO:DB:flush #1,136 took 0.0s.  Height 418,855 txs: 494,828 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:Prefetcher:new block height 418,856 hash 0dc7235897cc73ffb896ede41e4440c51a36189d6e349068c93fd685f8c74517
+INFO:DB:flush #1,137 took 0.0s.  Height 418,856 txs: 494,829 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,857 hash 3e08442e9fb2bd6132cc5e6ba6dc574caf9f80e19f066051647637acf65987bd
+INFO:DB:flush #1,138 took 0.0s.  Height 418,857 txs: 494,830 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,858 hash 2c1deef856d75bab95b72433c793ae3256c29a2d5babb529b2c299a26f0530e4
+INFO:DB:flush #1,139 took 0.0s.  Height 418,858 txs: 494,831 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,859 hash ff0547777404ed290e9b9ec0d699745864f14f69b2b82260429b03df5ce5e10a
+INFO:DB:flush #1,140 took 0.0s.  Height 418,859 txs: 494,832 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:1 txs 0.00 MB touching 2 addresses
+INFO:Prefetcher:new block height 418,860 hash 8f8ca7fbe5394f09472026ce81bd7b313919145cc517837be266d47316e39a51
+INFO:DB:flush #1,141 took 0.0s.  Height 418,860 txs: 494,834 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,861 hash 411a6ce5f977aa214ea029296750c8cd42ffd0ef8a755750a4cef6d2e0765f8a
+INFO:DB:flush #1,142 took 0.0s.  Height 418,861 txs: 494,835 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,862 hash a9a4716531727c37d8d92e3575b36df2f1a17ed64e45cdf4157a3e305b582dd2
+INFO:DB:flush #1,143 took 0.0s.  Height 418,862 txs: 494,837 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,863 hash 3cb5ae0689f393d4b9dabf8550f28a97205bfd3f0184651bd5ace7d70853ca3e
+INFO:DB:flush #1,144 took 0.0s.  Height 418,863 txs: 494,838 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:compact fee histogram: []
+INFO:Prefetcher:new block height 418,864 hash 360e617d70efb9b21f8f3d524b03a0fc39290c5ebb2f7ca48455a75aba796d05
+INFO:DB:flush #1,145 took 0.0s.  Height 418,864 txs: 494,839 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,865 hash 9e316019058ef571c13367db95afca8fa19398056ed91166a50e0fa495aec9c4
+INFO:DB:flush #1,146 took 0.0s.  Height 418,865 txs: 494,840 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,866 hash 5d9a81e2303b39b0bd8095103b4c0b3eaa1922fe6d12b4fe4ce6bd8c1b85aaf4
+INFO:DB:flush #1,147 took 0.0s.  Height 418,866 txs: 494,841 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,867 hash 89ef42484f70e2d7ce3af1d78dc5e1e1c07ed4df550fe6b1f80bd73007081d80
+INFO:DB:flush #1,148 took 0.0s.  Height 418,867 txs: 494,842 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,868 hash 3909a863362e984838fa5b12332827f84a4588cb5728dc938710ead473b1f825
+INFO:DB:flush #1,149 took 0.0s.  Height 418,868 txs: 494,843 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:no proxy detected, will try later
+INFO:MemPool:1 txs 0.00 MB touching 2 addresses
+INFO:Prefetcher:new block height 418,869 hash 84a81cb26ec2d554571bdb5c07195f78fecbedbffa7a6b59768fc0a05c0ca709
+INFO:DB:flush #1,150 took 0.0s.  Height 418,869 txs: 494,845 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,870 hash b8db7c38d906f4bb06076f42417853db3bb28d134a2cd8daa65f977cbc1f7c49
+INFO:DB:flush #1,151 took 0.0s.  Height 418,870 txs: 494,846 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:Prefetcher:new block height 418,871 hash 9cbe66284c5cedb0b57be8472f85d682570931a3d0a201c3afa4e0d38c24f9fb
+INFO:DB:flush #1,152 took 0.0s.  Height 418,871 txs: 494,848 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,872 hash 68e2fe4e40b60cfa91680163beab90fb7263e45d237afc22d5b80a7f79be86ff
+INFO:DB:flush #1,153 took 0.0s.  Height 418,872 txs: 494,849 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,873 hash 08e744f8a74abe65a063939d03c401c4ac0c12767e42d981376142c777ad6d80
+INFO:DB:flush #1,154 took 0.0s.  Height 418,873 txs: 494,850 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,874 hash 28698d731d02168b5b61e800438be457a3ddaffa3f1f63325250267b7addbd54
+INFO:DB:flush #1,155 took 0.0s.  Height 418,874 txs: 494,851 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,875 hash 347351079dc572a1d394292ced0f535fad252110ba6258db517ac386512b5bdf
+INFO:DB:flush #1,156 took 0.0s.  Height 418,875 txs: 494,852 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[19] SSL 192.168.246.186:34350, 0 total
+INFO:SyscoinElectrumX:[20] SSL 192.168.246.186:34362, 0 total
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:SyscoinElectrumX:[21] SSL 192.168.246.186:34570, 0 total
+INFO:Prefetcher:new block height 418,876 hash 82146b982199afd25cc774d37384d87d0b0c87c7787b04c14d5e8e8f2f77feae
+INFO:DB:flush #1,157 took 0.0s.  Height 418,876 txs: 494,853 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[22] SSL 192.168.246.186:34662, 0 total
+INFO:SyscoinElectrumX:[23] SSL 127.0.0.1:32790, 1 total
+INFO:SyscoinElectrumX:[22] disconnected.  Sent 1,855,486 bytes in 43 messages
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:Prefetcher:new block height 418,877 hash 03828b8aa7d4a4ab8e16e0160f61452038272b8d2b8e9c8695c165387f5ebec0
+INFO:DB:flush #1,158 took 0.0s.  Height 418,877 txs: 494,855 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,878 hash c75c81c5df4880c4cf5b27883a3414bbf61da77ebe2645b64fe95f3263add4f6
+INFO:DB:flush #1,159 took 0.0s.  Height 418,878 txs: 494,856 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[24] SSL 192.168.246.186:34960, 0 total
+INFO:SyscoinElectrumX:[25] SSL 127.0.0.1:33088, 1 total
+INFO:MemPool:compact fee histogram: []
+INFO:Prefetcher:new block height 418,879 hash 3593c3f5a80f9b2272b6f9eea30adfc141616a8760d466c1bbbb7a0d2647b507
+INFO:DB:flush #1,160 took 0.0s.  Height 418,879 txs: 494,857 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SyscoinElectrumX:[24] sent tx: 4fc908167c61483810cd822a39a1fcdb897a6f9929510bdfa9949edb33af23fd
+INFO:SyscoinElectrumX:[24] notified of 3 addresses
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:SyscoinElectrumX:[26] SSL 192.168.246.186:35282, 0 total
+INFO:SyscoinElectrumX:[27] SSL 127.0.0.1:33414, 1 total
+INFO:Prefetcher:new block height 418,880 hash c22c8af062fd6e92ccc9cb18b58ac2a3dc021ac461a518cc9ab2c591fe9c4cef
+INFO:DB:flush #1,161 took 0.0s.  Height 418,880 txs: 494,859 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:SyscoinElectrumX:[26] notified of 3 addresses
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,881 hash 540aca1dbb7c59ec9b6dfbd54fcad7337676dc07e3b8f704359f8437fe3f53b5
+INFO:DB:flush #1,162 took 0.0s.  Height 418,881 txs: 494,860 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:SessionManager:ID     Flags            Client Proto    Cost   XCost  Reqs   Txs    Subs    Recv Recv KB    Sent Sent KB      Time                  Peer
+INFO:SessionManager:{"coin": "Syscoin", "daemon": "localhost:8370/", "daemon height": 418881, "db height": 418881, "db_flush_count": 1162, "groups": 3, "history cache": "315 lookups 285 hits 27 entries", "merkle cache": "0 lookups 0 hits 0 entries", "pid": 128277, "peers": {"bad": 0, "good": 0, "never": 0, "stale": 0, "total": 0}, "request counts": {"server.version": 18, "blockchain.headers.subscribe": 18, "blockchain.block.header": 89, "server.banner": 12, "server.donation_address": 12, "server.peers.subscribe": 12, "blockchain.relayfee": 12, "mempool.get_fee_histogram": 51, "blockchain.estimatefee": 204, "blockchain.block.headers": 683, "blockchain.scripthash.subscribe": 297, "sessions": 10, "server.ping": 14, "blockchain.transaction.get_merkle": 4, "blockchain.transaction.broadcast": 1, "blockchain.scripthash.get_history": 9, "blockchain.transaction.get": 1}, "request total": 1447, "sessions": {"count": 0, "count with subs": 0, "errors": 0, "logged": 0, "pending requests": 0, "subs": 0}, "tx hashes cache": "4 lookups 2 hits 1 entries", "txs sent": 1, "uptime": "02h 00m 00s", "version": "ElectrumX 1.14.0"}
+INFO:PeerManager:trying to detect proxy on "localhost" ports [9050, 9150, 1080]
+INFO:PeerManager:no proxy detected, will try later
+INFO:Prefetcher:new block height 418,882 hash 0b286b0cd99caaf658380c95b58253d2bee94222686a88794fe946c47d20a577
+INFO:DB:flush #1,163 took 0.0s.  Height 418,882 txs: 494,861 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:1 txs 0.00 MB touching 2 addresses
+INFO:Prefetcher:new block height 418,883 hash d3378019027ab012c889893e750d80c3670d3386baebc1f9ffbfdbf284bd907f
+INFO:DB:flush #1,164 took 0.0s.  Height 418,883 txs: 494,862 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,884 hash 690314008c9d5c3c64e685ff2c6435bd145faafaed3e4bb582a0353a8e09a8f6
+INFO:DB:flush #1,165 took 0.0s.  Height 418,884 txs: 494,864 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,885 hash 94b1aece18ff94e7333bff5b7149e212b2d3c65ef6a8edaf55adb056689e2894
+INFO:DB:flush #1,166 took 0.0s.  Height 418,885 txs: 494,865 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,886 hash 927a13eaf1dc2bfca4b06a829761b17fb46b08a30c2432c172fcc775902afa32
+INFO:DB:flush #1,167 took 0.0s.  Height 418,886 txs: 494,866 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,887 hash 38cf5cf827d7aac77a74e69e85eebb3fb8f82d708368d65fa02cad3e3b25dc94
+INFO:DB:flush #1,168 took 0.0s.  Height 418,887 txs: 494,867 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,888 hash 5dd4995eb231f728add3ebc8685ecb7f945bb7a3d68123fe8273b6858f94b19a
+INFO:DB:flush #1,169 took 0.0s.  Height 418,888 txs: 494,868 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:MemPool:compact fee histogram: []
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,889 hash 7a1a641463e0cb7ddac88376851dc2630bf9512094d195b4582cdac6084994f0
+INFO:DB:flush #1,170 took 0.0s.  Height 418,889 txs: 494,869 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
+INFO:Prefetcher:new block height 418,890 hash d4795e514c39d6bf7caf7576c783ee09f698988f54c9d44e6956bda263572d71
+INFO:DB:flush #1,171 took 0.0s.  Height 418,890 txs: 494,870 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:1 txs 0.00 MB touching 3 addresses
+INFO:Prefetcher:new block height 418,891 hash 58f8a2a3ec801216b40f108707b84525984db39d991e9e065fec089bd03a3b3e
+INFO:DB:flush #1,172 took 0.0s.  Height 418,891 txs: 494,871 (+1)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:Prefetcher:new block height 418,892 hash 53173ffca7a1a62dac49fe85974350fe320b864b22d708b457f0df071ae17002
+INFO:DB:flush #1,173 took 0.0s.  Height 418,892 txs: 494,873 (+2)
+INFO:BlockProcessor:processed 1 block size 0.00 MB in 0.0s
+INFO:MemPool:0 txs 0.00 MB touching 0 addresses
