@@ -145,6 +145,11 @@ class SessionManager:
         self.server_listening = Event()
         self.session_event = Event()
 
+        # john
+        self.mn_cache_height = 0
+        self.mn_cache = []
+
+
         # Set up the RPC request handlers
         cmds = ('add_peer daemon_url disconnect getinfo groups log peers '
                 'query reorg sessions stop'.split())
@@ -1750,6 +1755,8 @@ class SyscoinElectrumX(AuxPoWElectrumX):
 
         payees: a list of masternode payee addresses.
         '''
+
+        print("################################:", payees)
         if not isinstance(payees, list):
             raise RPCError(BAD_REQUEST, 'expected a list of payees')
 
@@ -1796,7 +1803,7 @@ class SyscoinElectrumX(AuxPoWElectrumX):
                     position = pos
                     break
             return position
-
+            
         # Accordingly with the masternode payment queue, a custom list
         # with the masternode information including the payment
         # position is returned.
@@ -1823,9 +1830,9 @@ class SyscoinElectrumX(AuxPoWElectrumX):
                     mn_payment_queue, mn_info['payee'])
                 mn_info['inselection'] = (
                         mn_info['paymentposition'] < mn_payment_count // 10)
-                balance = await self.address_get_balance(mn_info['payee'])
-                mn_info['balance'] = (sum(balance.values())
-                                      / self.coin.VALUE_PER_COIN)
+                #balance = await self.address_get_balance(mn_info['payee'])
+                #mn_info['balance'] = (sum(balance.values())
+                #                      / self.coin.VALUE_PER_COIN)
                 mn_list.append(mn_info)
             cache.clear()
             cache.extend(mn_list)
